@@ -11,6 +11,7 @@ apt-get install -y --no-install-recommends \
 	libbz2-dev \
 	libboost-all-dev \
 	liblua5.2-dev \
+	libstxxl1v5 \
 	libsqlite3-dev \
 	libtbb-dev \
 	libxml2-dev \
