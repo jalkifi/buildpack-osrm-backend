@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cat << EOF
+---
+addns:
+  - ORSM backend
+  - Foo
+EOF

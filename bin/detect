@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "OSRM backend"
+exit 0
