@@ -1,30 +1,5 @@
  #!/bin/sh
 
-apt-get install -y --no-install-recommends \
-	autoconf \
-	bison \
-	build-essential \
-	cmake \
-	coreutils \
-	curl \
-	gdal-bin \
-	libbz2-dev \
-	libboost-all-dev \
-	liblua5.2-dev \
-	libstxxl1v5 \
-	libsqlite3-dev \
-	libtbb-dev \
-	libxml2-dev \
-	libzip-dev \
-	lua5.2 \
-	pkg-config \
-	python-pip \
-	wget \
-	zlib1g-dev \
-	libexpat1-dev
-
-export CMAKE_ROOT=/tmp/build/.apt/usr/share/cmake-3.16
-
 wget https://github.com/Project-OSRM/osrm-backend/archive/v5.20.0.tar.gz -O osrm-backend.tar.gz && \
 	tar -xzvf osrm-backend.tar.gz && \
 	cd osrm-backend-5.20.0 && \
